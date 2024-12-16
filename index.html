@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login form reqres API Axios(npm) async/await</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <div class="title">Login</div>
+      <hr />
+      <div class="body">
+        <div class="emailBox">
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+          />
+        </div>
+
+        <div class="passwordBox">
+          <label for="pwd">Password:</label><br />
+          <input
+            type="password"
+            id="pwd"
+            name="pwd"
+            placeholder="Enter Your Password"
+          />
+        </div>
+
+        <small>Forget Password?</small>
+
+        <button>Login</button>
+
+        <div class="notMember">Not a Member ? <span>SignUp</span></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

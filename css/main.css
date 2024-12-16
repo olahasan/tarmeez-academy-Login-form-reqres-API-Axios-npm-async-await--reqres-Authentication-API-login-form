@@ -1,0 +1,92 @@
+.form {
+  background-color: #fff6e9;
+  width: 300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+}
+
+.form .title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+hr {
+  width: calc(100% + 38px);
+  margin-left: -20px;
+}
+
+.body {
+  padding: 0 20px;
+}
+
+.form .emailBox {
+  margin-bottom: 25px;
+}
+
+.form .emailBox label,
+.form .passwordBox label {
+  color: #6da8c5;
+}
+
+.form .emailBox input,
+.form .passwordBox input {
+  border: navajowhite;
+  background: transparent;
+  border-bottom: 1px solid #00000038;
+  margin-top: 5px;
+  transition: border-color 0.3s;
+  width: 100%;
+}
+.form .passwordBox input:focus,
+.form .emailBox input:focus {
+  outline: none;
+  border-color: #6da8c5;
+}
+
+.form .passwordBox input:focus label,
+.form .emailBox input:focus-within label {
+  color: #6da8c5;
+}
+
+.form .emailBox input:focus::placeholder,
+.form .passwordBox input:focus::placeholder {
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+small {
+  margin-top: 20px;
+  display: block;
+  cursor: pointer;
+  font-size: 10px;
+  color: #80c4e9;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 20px;
+  border: 1px solid #6da8c5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f0f8ff;
+}
+
+.notMember {
+  margin-top: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.notMember span {
+  color: #80c4e9;
+  cursor: pointer;
+}
