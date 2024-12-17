@@ -47,7 +47,9 @@ Otherwise, all links will open in the same tab.
 - Solution URL: [here](https://github.com/olahasan/tarmeez-academy-Login-form-reqres-API-Axios-npm-async-await--reqres-Authentication-API-login-form)
 
 **if you want to login successful you should copy those values and past them into input fields**
-**email: "charles.morris@reqres.in"**//**password: "pistol" or any password**
+- **email: "charles.morris@reqres.in"**
+- **password: "pistol" or any password**
+  
 - Live Site URL: [here](https://olahasan.github.io/tarmeez-academy-Login-form-reqres-API-Axios-npm-async-await--reqres-Authentication-API-login-form/)
 
 
